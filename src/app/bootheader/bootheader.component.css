@@ -1,0 +1,10 @@
+header{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}

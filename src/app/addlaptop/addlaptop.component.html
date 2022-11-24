@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+    <div class="col-md-8">
+        <form>
+            <div class="form-group">
+                <label for="">Laptop Id</label>
+                <input type="text" [(ngModel)]="laptopId" name="laptopId" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Laptop Name</label>
+                <input type="text" [(ngModel)]="laptopName" name="laptopName" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Laptop Price</label>
+                <input type="text" [(ngModel)]="laptopPrice" name="laptopPrice" class="form-control">
+
+            </div>
+
+            
+        </form>
+        <button (click)="addlaptop()" class="btn btn-primary btn-lg">Add Laptop</button>
+    </div>
+  </div>
+</div>
